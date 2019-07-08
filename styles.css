@@ -1,0 +1,30 @@
+body {
+  background-image: url("editbotanical.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.top-nav li {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rsvp-form-attending {
+  margin-top: 12px;
+}
+/* 
+.rsvp-form {
+  border: 1px solid black;
+  border-radius: 4px;
+} */
+
+.main-image {
+  width: 100%;
+}
+
+.rsvp-form-labels {
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
