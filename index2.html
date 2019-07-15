@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" 
+      integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+      <link rel="stylesheet" href="./styles.css">
+      <title>Herah and Michael Get Married</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-div">
+        <h1 class="header">Herah and Michael are getting married!</h1>
+      </div>
+      <div class="top-nav">
+        <ul>
+          <li><a href="#details">Details</a></li>
+          <span>♦</span>
+          <li><a href="#venue">Venue</a></li>
+          <span>♦</span>
+          <li><a href="#rsvp">RSVP</a></li>
+          <span>♦</span>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div id="details" class="details-section">
+          <h2>Details</h2>
+          <p></p>
+        </div>
+    
+        <div id="venue" class="venue-section">
+          <h2>Venue</h2>
+        </div>
+
+      <div id="rsvp" class="rsvp-section">
+        <h2>RSVP</h2>
+        <p>Please RSVP by Jan 07 2020 by using the below form.</p>
+        <form class="pure-form pure-form-aligned rsvp-form">
+          <fieldset>
+            <div class="pure-control-group rsvp-form-name">
+              <label for="form-name">Name</label>
+              <input id="form-name" type="text" value="" placeholder="Your name" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-attending">
+              <p class="rsvp-form-labels">Are you attending the wedding on the 7th of Feb, 2020?</p>
+              <label for="form-attending">Attending</label>
+              <input id="form-attending" type="radio" value="form-attending" />
+              <label for="form-not-attending">Not Attending</label>
+              <input id="form-not-attending" type="radio" value="form-not-attending" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-email">
+              <label for="form-email">Email</label>
+              <input id="form-email" type="email" placeholder="Your email" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-number">
+              <label for="form-number">Phone</label>
+              <input id="form-number" type="tel" placeholder="Your number" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-dietary">
+              <label for="form-dietary">Dietary requirements</label>
+              <input id="form-dietary" type="text" />
+            </div>
+
+            <div class="pure-controls">
+              <button type="submit" class="pure-button pure-button-primary">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="contact" class="contact-section">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="bottom-div"></div>
+    </div>
+  </body>
+</html>
