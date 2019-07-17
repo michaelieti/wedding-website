@@ -67,7 +67,7 @@ h2 {
 }
 
 .map-iframe {
-  width: 400px; 
+  width: 100%; 
   height: 350px;
 }
 
@@ -83,11 +83,15 @@ h2 {
     font-size: 250%;
     width: 100%;
   }
-
   
-.top-nav li {
-  margin-left: 5%;
-  margin-right: 5%;
-}
+  .top-nav li {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .map-iframe {
+    width: 100%;
+    height: 350px;
+  }
 
 }
