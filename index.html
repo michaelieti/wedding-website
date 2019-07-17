@@ -7,86 +7,85 @@
       <link rel="stylesheet" href="./styles.css">
       <title>Herah and Michael Get Married</title>
   </head>
+
   <body>
-    <div class="pure-g">
-      <div class="pure-u-sm-1 pure-u-md-1-5">
-        <!-- spacer -->
+    <div class="container">
+      <div class="header-div">
+        <h1 class="header">Herah and Michael are getting married!</h1>
       </div>
-      
-      <div class="pure-u-sm-1 pure-u-md-3-5">
-        <div class="header-div">
-          <h1 class="header">Herah and Michael get married!</h1>
-        </div>  
-        <div class="top-nav">
-          <ul>
-            <li><a href="#rsvp">RSVP</a></li>
-            <li><a href="#details">Details</a></li>
-            <li><a href="#venue">Venue</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="main-image">
-          <img class="pure-img" src="https://dummyimage.com/600x400/cccccc/ffffff.png&text=cool+placeholder+image" alt="cute picture" />
-        </div>
-
-        <div id="rsvp" class="rsvp-section">
-          <h2>RSVP</h2>
-          <p>Please RSVP by Jan 07 2020 by using the below form.</p>
-          <form class="pure-form pure-form-aligned rsvp-form">
-            <fieldset>
-              <div class="pure-control-group rsvp-form-name">
-                <label for="form-name">Name</label>
-                <input id="form-name" type="text" value="" placeholder="Your name" />
-              </div>
-
-              <div class="pure-control-group rsvp-form-attending">
-                <p class="rsvp-form-labels">Are you attending the wedding on the 7th of Feb, 2020?</p>
-                <label for="form-attending">Attending</label>
-                <input id="form-attending" type="radio" value="form-attending" />
-                <label for="form-not-attending">Not Attending</label>
-                <input id="form-not-attending" type="radio" value="form-not-attending" />
-              </div>
-
-              <div class="pure-control-group rsvp-form-email">
-                <label for="form-email">Email</label>
-                <input id="form-email" type="email" placeholder="Your email" />
-              </div>
-
-              <div class="pure-control-group rsvp-form-number">
-                <label for="form-number">Phone</label>
-                <input id="form-number" type="tel" placeholder="Your number" />
-              </div>
-
-              <div class="pure-control-group rsvp-form-dietary">
-                <label for="form-dietary">Dietary requirements</label>
-                <input id="form-dietary" type="text" />
-              </div>
-
-              <div class="pure-controls">
-                <button type="submit" class="pure-button pure-button-primary">Submit</button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-
-        <div id="details" class="details-section">
-          <h2>Details</h2>
-        </div>
-
-        <div id="venue" class="venue-section">
-          <h2>Venue</h2>
-        </div>
-
-        <div id="contact" class="contact-section">
-          <h2>Contact</h2>
-        </div>
-
+      <div class="top-nav">
+        <ul>
+          <li><a href="#details">Details</a></li>
+          <span>♦</span>
+          <li><a href="#venue">Venue</a></li>
+          <span>♦</span>
+          <li><a href="#rsvp">RSVP</a></li>
+          <span>♦</span>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
 
-      <div class="pure-u-sm-1 pure-u-md-1-5">
-        <!-- spacer -->
+
+      <div id="details" class="details-section">
+        <h2>Details</h2>
+        <p></p>
       </div>
+    
+      <div id="venue" class="venue-section">
+        <h2>Venue</h2>
+        <p>The venue is Pah Homestead: <a href="https://tsbbankwallaceartscentre.org.nz/">https://tsbbankwallaceartscentre.org.nz/</a>.</p>
+        <p>The Pah Homestead is located at:
+        <br/>Hillsborough Rd, Hillsborough, Auckland 1345, New Zealand</p>
+        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12759.967409375386!2d174.7631989!3d-36.9144592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79f99cf7600cba13!2sTSB+Bank+Wallace+Arts+Centre!5e0!3m2!1sen!2sau!4v1563369021912!5m2!1sen!2sau" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    
+      <div id="rsvp" class="rsvp-section">
+        <h2>RSVP</h2>
+        <p>Please RSVP by Jan 07 2020 by using the below form (...or email <a href="mailto:herahandmichael@gmail.com">herahandmichael@gmail.com</a> if it isn't working.</p>
+        <form class="pure-form pure-form-aligned rsvp-form">
+          <fieldset>
+            <div class="pure-control-group rsvp-form-name">
+              <label for="form-name">Name</label>
+              <input id="form-name" type="text" value="" placeholder="Your name" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-attending">
+              <p class="rsvp-form-labels">Are you attending the wedding (Friday 7/02/2020)?</p>
+              <label for="form-attending">Attending</label>
+              <input id="form-attending" type="radio" value="form-attending" />
+              <label for="form-not-attending">Not Attending</label>
+              <input id="form-not-attending" type="radio" value="form-not-attending" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-email">
+              <label for="form-email">Email</label>
+              <input id="form-email" type="email" placeholder="Your email" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-number">
+              <label for="form-number">Phone</label>
+              <input id="form-number" type="tel" placeholder="Your number" />
+            </div>
+
+            <div class="pure-control-group rsvp-form-dietary">
+              <label for="form-dietary">Dietary requirements</label>
+              <input id="form-dietary" type="text" />
+            </div>
+
+            <div class="pure-controls">
+              <button type="submit" class="pure-button pure-button-primary">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>You can email <a href="mailto:herahandmichael@gmail.com">herahandmichael@gmail.com</a> if you have any questions and we will try to get back to you as soon as possible.</p>
+        <p>Alternatively, if Michael hasn't set up the form yet you can send an email to RSVP (click the link above!)</p>
+      </div>
+
+      <div class="bottom-div"></div>
     </div>
   </body>
 </html>
