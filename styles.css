@@ -72,7 +72,11 @@ h2 {
 }
 
 .gallery-header {
-  text-align: center;
+  text-align: left;
+}
+
+.contents-div {
+  text-align: left;
 }
 
 @media only screen and (min-width: 980px) {
