@@ -79,6 +79,21 @@ h2 {
   text-align: left;
 }
 
+.gallery-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-photos img {
+  margin: 5px;
+  height: 110px;
+}
+
+.tiny-link {
+  font-size: 10px;
+}
+
 @media only screen and (min-width: 980px) {
 
   .container {
