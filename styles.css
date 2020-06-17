@@ -117,4 +117,8 @@ h2 {
     height: 350px;
   }
 
+  .gallery-photos {
+    justify-content: center;
+  }
+
 }
